@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="250" viewBox="0 0 420 250">
+<defs>
+  <pattern id="dots" width="7" height="7" patternUnits="userSpaceOnUse">
+    <circle cx="3.5" cy="3.5" r="1.7" fill="#1F5E3A" opacity=".28"/>
+  </pattern>
+  <linearGradient id="fade" x1="1" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".55" stop-color="#fff" stop-opacity="1"/>
+  </linearGradient>
+  <clipPath id="c"><rect x="6" y="6" width="402" height="232"/></clipPath>
+  <style>
+    .t{font:900 34px Impact, 'Anton', 'Bebas Neue', 'Arial Black', sans-serif;letter-spacing:1px;fill:#0d0d0d}
+    .b{font:600 14.5px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#1a1a1a}
+    .n{font:15px Impact, 'Anton', 'Bebas Neue', 'Arial Black', sans-serif;fill:#fff;letter-spacing:1px}
+    .g{font:12px Impact, 'Anton', 'Bebas Neue', 'Arial Black', sans-serif;fill:#fff;letter-spacing:1.5px}
+    .s{font:800 11px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#555;letter-spacing:1.2px}
+    .fx{font:900 36px 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'Meiryo', sans-serif;fill:#F28C28;stroke:#0d0d0d;stroke-width:2.2px;paint-order:stroke}
+    .pop{transform-origin:372px 130px;transform-box:view-box;animation:pop 2.4s ease-in-out infinite}
+    @keyframes pop{0%,100%{transform:rotate(-8deg) scale(1)}50%{transform:rotate(-4deg) scale(1.1)}}
+    @media (prefers-reduced-motion:reduce){.pop{animation:none}}
+  </style>
+</defs>
+<rect x="12" y="12" width="402" height="232" fill="#F28C28"/>
+<rect x="6" y="6" width="402" height="232" fill="#fff"/>
+<g clip-path="url(#c)">
+  <g stroke="#000" stroke-width="1.1" opacity=".09"><line x1="470" y1="-40" x2="-80" y2="270" /><line x1="470" y1="-40" x2="-58" y2="270" /><line x1="470" y1="-40" x2="-36" y2="270" /><line x1="470" y1="-40" x2="-14" y2="270" /><line x1="470" y1="-40" x2="8" y2="270" /><line x1="470" y1="-40" x2="30" y2="270" /><line x1="470" y1="-40" x2="52" y2="270" /><line x1="470" y1="-40" x2="74" y2="270" /><line x1="470" y1="-40" x2="96" y2="270" /><line x1="470" y1="-40" x2="118" y2="270" /><line x1="470" y1="-40" x2="140" y2="270" /><line x1="470" y1="-40" x2="162" y2="270" /><line x1="470" y1="-40" x2="184" y2="270" /><line x1="470" y1="-40" x2="206" y2="270" /><line x1="470" y1="-40" x2="228" y2="270" /><line x1="470" y1="-40" x2="250" y2="270" /><line x1="470" y1="-40" x2="272" y2="270" /><line x1="470" y1="-40" x2="294" y2="270" /><line x1="470" y1="-40" x2="316" y2="270" /><line x1="470" y1="-40" x2="338" y2="270" /><line x1="470" y1="-40" x2="360" y2="270" /><line x1="470" y1="-40" x2="382" y2="270" /><line x1="470" y1="-40" x2="404" y2="270" /><line x1="470" y1="-40" x2="426" y2="270" /><line x1="470" y1="-40" x2="448" y2="270" /></g>
+  <rect x="200" y="6" width="220" height="140" fill="url(#dots)"/>
+  <rect x="200" y="6" width="220" height="140" fill="url(#fade)"/>
+</g>
+<rect x="6" y="6" width="402" height="232" fill="none" stroke="#0d0d0d" stroke-width="5"/>
+<polygon points="6,6 70,6 56,34 6,34" fill="#1F5E3A"/>
+<text x="16" y="27" class="n">#02</text>
+<text x="26" y="84" class="t">HAWKINS</text>
+<rect x="26" y="93" width="54" height="5" fill="#F28C28"/>
+<text x="26" y="122" class="b">The Wallet Gazette. Cross-references</text><text x="26" y="143" class="b">holders, flags sybil clusters and</text><text x="26" y="164" class="b">scores repeat whales.</text>
+<text x="26" y="215" class="s">REACT · EXPRESS · WEB3.JS · FIREBASE</text>
+<g transform="translate(255,20)"><rect width="129" height="22" fill="#1F5E3A" transform="skewX(-12)"/><text x="64.6" y="16" text-anchor="middle" class="g">SYBIL HUNTER</text></g>
+<g class="pop"><text x="372" y="150" text-anchor="middle" class="fx">ド</text><text x="372" y="197" text-anchor="middle" class="fx">ン</text></g>
+</svg>
