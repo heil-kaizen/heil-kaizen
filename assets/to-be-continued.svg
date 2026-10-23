@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="120" viewBox="0 0 620 120">
+<style>
+  .t{font:900 38px Impact, 'Anton', 'Bebas Neue', 'Arial Black', sans-serif;fill:#f2e8c9;letter-spacing:2px}
+  .a{animation:slide 1.1s cubic-bezier(.2,.9,.25,1) both, nudge 1.6s 1.2s ease-in-out infinite}
+  @keyframes slide{from{transform:translateX(-640px)}to{transform:none}}
+  @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+  @media (prefers-reduced-motion:reduce){.a{animation:none}}
+</style>
+<g class="a">
+  <polygon points="10,30 500,30 500,8 604,60 500,112 500,90 10,90 34,60" fill="#0d0d0d"/>
+  <polygon points="22,38 492,38 492,24 588,60 492,96 492,82 22,82 42,60" fill="#F28C28"/>
+  <polygon points="28,42 488,42 488,32 576,60 488,88 488,78 28,78 46,60" fill="#1F5E3A"/>
+  <text x="70" y="74" class="t" textLength="380" lengthAdjust="spacingAndGlyphs">TO BE CONTINUED</text>
+  <text x="468" y="74" class="t" style="fill:#F28C28">!</text>
+</g>
+</svg>

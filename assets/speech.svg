@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300">
+<style>
+  .h{font:900 34px Impact, 'Anton', 'Bebas Neue', 'Arial Black', sans-serif;fill:#0d0d0d;letter-spacing:1px}
+  .l{font:700 18px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#1a1a1a}
+  .r{animation:in .45s ease-out backwards}
+  @keyframes in{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .fx{font:900 34px 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'Meiryo', sans-serif;fill:#F28C28;stroke:#0d0d0d;stroke-width:1.6px;paint-order:stroke}
+  .pop{animation:pop 1.8s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.15)}}
+  @media (prefers-reduced-motion:reduce){.r{animation:none}.pop{animation:none}}
+</style>
+<path d="M44 26 Q40 14 56 14 L516 14 Q532 14 530 30 L522 236 Q520 252 504 252 L120 252 L40 290 L74 252 L52 252 Q36 252 36 236 Z"
+      fill="#fff" stroke="#0d0d0d" stroke-width="5" stroke-linejoin="round"/>
+<text x="70" y="82" class="h r" style="animation-delay:0.30s">OSU! I'm KAIZEN.</text><text x="70" y="124" class="l r" style="animation-delay:0.85s">No natural talent. Just reps.</text><text x="70" y="156" class="l r" style="animation-delay:1.40s">1% better, every single day:</text><text x="70" y="188" class="l r" style="animation-delay:1.95s">more commits, cleaner code,</text><text x="70" y="220" class="l r" style="animation-delay:2.50s">and limits pushed until they break.</text>
+<g class="pop"><text x="478" y="78" text-anchor="middle" class="fx" transform="rotate(-8 478 66)">ドン</text></g>
+</svg>

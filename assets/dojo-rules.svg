@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="330" viewBox="0 0 840 330">
+<style>
+  .k{font:900 34px 'Noto Sans JP', 'Hiragino Kaku Gothic Pro', 'Yu Gothic', 'Meiryo', sans-serif;fill:#F28C28}
+  .h{font:900 28px Impact, 'Anton', 'Bebas Neue', 'Arial Black', sans-serif;fill:#0d0d0d;letter-spacing:1.5px}
+  .s{font:700 17px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;fill:#3a3a3a}
+  .r{animation:in .5s ease-out backwards}
+  @keyframes in{from{opacity:0;transform:translateX(-14px)}to{opacity:1;transform:none}}
+  @media (prefers-reduced-motion:reduce){.r{animation:none}}
+</style>
+<rect x="8" y="12" width="824" height="306" rx="10" fill="#0d0d0d"/>
+<rect x="2" y="6" width="824" height="306" rx="10" fill="#f2e8c9" stroke="#0d0d0d" stroke-width="5"/>
+<rect x="2" y="6" width="824" height="18" rx="9" fill="#F28C28" stroke="#0d0d0d" stroke-width="5"/>
+<g class="r" style="animation-delay:0.3s">
+  <rect x="34" y="40" width="72" height="72" rx="6" fill="#1F5E3A" stroke="#0d0d0d" stroke-width="4"/>
+  <text x="70" y="90" text-anchor="middle" class="k">壱</text>
+  <text x="128" y="72" class="h">SHOW UP DAILY</text>
+  <text x="128" y="100" class="s">Motivation fades. Discipline commits anyway.</text>
+</g>
+<g class="r" style="animation-delay:0.8s">
+  <rect x="34" y="132" width="72" height="72" rx="6" fill="#1F5E3A" stroke="#0d0d0d" stroke-width="4"/>
+  <text x="70" y="182" text-anchor="middle" class="k">弐</text>
+  <text x="128" y="164" class="h">SHIP SMALL, IMPROVE ALWAYS</text>
+  <text x="128" y="192" class="s">Every push is a rep. Every refactor is a lap.</text>
+</g>
+<g class="r" style="animation-delay:1.3s">
+  <rect x="34" y="224" width="72" height="72" rx="6" fill="#1F5E3A" stroke="#0d0d0d" stroke-width="4"/>
+  <text x="70" y="274" text-anchor="middle" class="k">参</text>
+  <text x="128" y="256" class="h">HARD WORK BEATS TALENT</text>
+  <text x="128" y="284" class="s">When talent stops training, the grinder passes it.</text>
+</g>
+</svg>
